@@ -1,7 +1,7 @@
 
 $ubuntufont : 'Ubuntu', sans-serif;
 $poppinsfont : 'Poppins', sans-serif;
-$primaryColor : crimson;
+$primaryColor : #7f78d2;
 *{
     margin: 0;
     padding: 0;
@@ -149,7 +149,7 @@ section .title{
 
 section .title::before {
     font-size: 20px;
-    color: crimson;
+    color: #7f78d2;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 45px);
@@ -333,7 +333,7 @@ margin-bottom: 10px;
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: rgb(138, 94, 189);
+    background: rgb(181, 179, 184);
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -372,6 +372,9 @@ margin-bottom: 10px;
     content: "contact me";
     background: #393b44;
 
+}
+.contact .title::after{
+    background: #fff;
 }
 .contact .right form .fields{
     display: flex;

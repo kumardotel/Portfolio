@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
 
     } else {
         myNav.classList.remove("scroll");
-        portspan.style.color = 'crimson'
+        portspan.style.color = '#7f78d2'
         topBtn.style.display = 'none';
     }
 });
