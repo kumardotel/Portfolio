@@ -507,22 +507,18 @@ section .title::after {
 .footer {
   background: #7f78d2;
   color: white;
-  height: 10vh;
-  padding: 13px;
-}
-
-.footer .footer-content {
   font-family: "Ubuntu", sans-serif;
-  position: relative;
+  font-size: 18px;
+  padding: 1.25rem 0rem;
 }
 
-.all {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 80%);
+.footer .f-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/*footer is incomplete */
 .backTopBtn {
   height: 50px;
   width: 50px;
@@ -579,6 +575,13 @@ section .title::after {
   }
   .contact {
     padding: 50px 0;
+  }
+  .footer {
+    background: #7f78d2;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    padding: 0.75rem 0rem;
   }
 }
 
@@ -649,19 +652,6 @@ section .title::after {
   .skills .skills-content .left {
     margin-bottom: 30px;
   }
-  .footer {
-    background: #7f78d2;
-    color: white;
-    height: 10vh;
-    padding: 5px;
-  }
-  .footer .footer-content {
-    font-family: "Ubuntu", sans-serif;
-    position: relative;
-  }
-  .all {
-    transform: translate(-50%, 9%);
-  }
 }
 
 @media (max-width: 650px) {
@@ -684,12 +674,6 @@ section .title::after {
   }
   .about .about-content .right a {
     padding: 8px 16px;
-  }
-  .footer {
-    background: #8d93ab;
-    color: white;
-    height: 10vh;
-    padding: 0px;
   }
 }
 

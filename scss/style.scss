@@ -470,25 +470,22 @@ margin-bottom: 10px;
 .footer{
     background: $primaryColor;
     color: white;
-    height: 10vh;
-   padding: 13px;
-   
-}
-.footer .footer-content{
-    // display: flex;
-    // justify-content: center;
-    // align-items: center !important;
     font-family: $ubuntufont;
-    // height: inherit;
-    position: relative;
-    
+    font-size: 18px;
+    padding: 1.25rem 0rem;
 }
-.all{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 80%);
+
+.footer .f-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
+
+/*footer is incomplete */
 .backTopBtn{
     height: 50px;
     width: 50px;
@@ -543,6 +540,13 @@ margin-bottom: 10px;
     }
     .contact{
         padding: 50px 0;
+    }
+    .footer{
+        background: $primaryColor;
+        color: white;
+        font-family: $ubuntufont;
+        font-size: 18px;
+        padding: 0.75rem 0rem;
     }
 }
 @media (max-width: 950px){
@@ -616,26 +620,7 @@ margin-bottom: 10px;
     .skills .skills-content .left{
         margin-bottom: 30px;
     }
-    .footer{
-        background: $primaryColor;
-        color: white;
-        height: 10vh;
-       padding: 5px;
-       
-    }
-    .footer .footer-content{
-        // display: flex;
-        // justify-content: center;
-        // align-items: center !important;
-        font-family: $ubuntufont;
-        // height: inherit;
-        position: relative;
-        
-    }
-    .all{
-        
-        transform: translate(-50%, 9%);
-    }
+    
 }
 
 
@@ -660,12 +645,7 @@ margin-bottom: 10px;
     .about .about-content .right a{
         padding: 8px 16px;
     }
-    .footer {
-        background: #8d93ab;
-        color: white;
-        height: 10vh;
-        padding: 0px;
-    }
+   
 }
 @media (max-width: 450px){
     .home .home-content .text-2{
